@@ -1,0 +1,92 @@
+New log file opened at Fri May 06 12:41:17 IST 2016 by 10840@Swapnalag-Win8
+jvm 10840@Swapnalag-Win8
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=24.65-b04
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.7
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:PermSize=64m, -XX:MaxPermSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=D:\spray-rest-memcached
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory D:\spray-rest-memcached\project
+[Loading] Found non-root projects 
+[Loading] Done in D:\spray-rest-memcached\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in D:\spray-rest-memcached\project, returning: (spray-rest-memcached-build)
+Loading project definition from D:\spray-rest-memcached\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@25651920, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory D:\spray-rest-memcached
+[Loading] Found non-root projects 
+[Loading] Done in D:\spray-rest-memcached, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in D:\spray-rest-memcached, returning: (spray-rest-memcached)
+Set current project to spray-rest-memcached (in build file:/D:/spray-rest-memcached/)
+Reapplying settings...
+Set current project to spray-rest-memcached (in build file:/D:/spray-rest-memcached/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/D:/spray-rest-memcached/}spray-rest-memcached/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6d7bee23, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$4.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedCache$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\config\AppConfig$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$insertProfile$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\database\ProfilesDatabase.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$2.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedProcess.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\RouteExceptionHandlers.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dto\Profile$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\exceptions\ProfileNotFoundException.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\exceptions\ProfileNotFoundException$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$getProfile$2.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$5$$anonfun$apply$3.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedCache$$anonfun$apply$2.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedProcess$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$3.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\database\ProfilesDatabase$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\HazelcastProcess.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\config\AppConfig$JDBC$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$3$$anonfun$apply$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileActor.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\RouteExceptionHandlers$$anonfun$exceptionHandler$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dto\ProfileJsonProtocol$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$updateProfile$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\boot\Boot$delayedInit$body.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$class.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dto\Profile.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\boot\Boot.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\database\Profiles$$anonfun$$times$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedProcess$$anonfun$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$insertProfile$1$$anonfun$apply$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\RouteExceptionHandlers$$anonfun$exceptionHandler$1$$anonfun$applyOrElse$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$5.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$4.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\RouteExceptionHandlers$class.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$getProfiles$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\config\AppConfig$Memcached$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\config\AppConfig.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$6.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$4$$anonfun$apply$2.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\HazelcastProcess$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$3.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedCache.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$deleteProfile$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\database\Profiles.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$6$$anonfun$apply$4.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$getProfile$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\cache\MemcachedCache$$anonfun$apply$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dto\ProfileJsonProtocol.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\boot\Boot$.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\database\ProfilesDatabase$$anonfun$1.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO$$anonfun$2.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\dao\ProfileDAO.class, D:\spray-rest-memcached\target\scala-2.10\classes\com\example\rest\ProfileService$$anonfun$6$$anonfun$apply$4$$anonfun$apply$5.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(D:\spray-rest-memcached\src\main\scala\com\example\cache\MemcachedProcess.scala, D:\spray-rest-memcached\src\main\scala\com\example\config\AppConfig.scala, D:\spray-rest-memcached\src\main\scala\com\example\dto\Profile.scala, D:\spray-rest-memcached\src\main\scala\com\example\database\ProfilesDatabase.scala, D:\spray-rest-memcached\src\main\scala\com\example\rest\RouteExceptionHandlers.scala, D:\spray-rest-memcached\src\main\scala\com\example\dao\ProfileDAO.scala, D:\spray-rest-memcached\src\main\scala\com\example\rest\ProfileService.scala, D:\spray-rest-memcached\src\main\scala\com\example\exceptions\Exceptions.scala, D:\spray-rest-memcached\src\main\scala\com\example\boot\Boot.scala, D:\spray-rest-memcached\src\main\scala\com\example\cache\MemcachedCache.scala, D:\spray-rest-memcached\src\main\scala\com\example\cache\HazelcastProcess.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\spray-rest-memcached\src\main\scala\com\example\cache\MemcachedProcess.scala, D:\spray-rest-memcached\src\main\scala\com\example\config\AppConfig.scala, D:\spray-rest-memcached\src\main\scala\com\example\dto\Profile.scala, D:\spray-rest-memcached\src\main\scala\com\example\database\ProfilesDatabase.scala, D:\spray-rest-memcached\src\main\scala\com\example\rest\RouteExceptionHandlers.scala, D:\spray-rest-memcached\src\main\scala\com\example\dao\ProfileDAO.scala, D:\spray-rest-memcached\src\main\scala\com\example\rest\ProfileService.scala, D:\spray-rest-memcached\src\main\scala\com\example\exceptions\Exceptions.scala, D:\spray-rest-memcached\src\main\scala\com\example\boot\Boot.scala, D:\spray-rest-memcached\src\main\scala\com\example\cache\MemcachedCache.scala, D:\spray-rest-memcached\src\main\scala\com\example\cache\HazelcastProcess.scala)
+
+Recompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources
+Read from stdout: Compiling 11 Scala sources to D:\spray-rest-memcached\target\scala-2.10\classes...
+Compiling 11 Scala sources to D:\spray-rest-memcached\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.3
+Other repositories:
+Default repositories:
+Waiting for lock on C:\Users\swapnalag\.ivy2\.sbt.ivy.lock to be available...

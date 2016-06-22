@@ -1,0 +1,19 @@
+New log file opened at Wed Jun 22 14:41:41 IST 2016 by 9840@Swapnalag-Win8
+Taking next connection to: 56575
+New client attempting to connect on port: 56576-56575
+  Address = /172.27.52.182:56575
+This client on port 56576 has uuid 4348c9ac-c3e3-4041-9121-85e8be6b8638 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-4348c9ac-c3e3-4041-9121-85e8be6b8638
+Taking next connection to: 56575
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56575
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56575
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56575
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56575
